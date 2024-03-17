@@ -6,7 +6,7 @@ import Register from './components/Register';
 import Farmer from './pages/Farmer';
 import Trader from './pages/Trader';
 import Transport from './pages/Transport'; // Renamed Transport to Transporter
-import Homepage from './pages/Homepage'; // Added Homepage import
+import Contact from './pages/Contact'; // Added Homepage import
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/farmer" element={<Farmer />} />
         <Route path="/trader" element={<Trader />} />
         <Route path="/transport" element={<Transport />} />
-        <Route path="/homepage" element={<Homepage />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -73,7 +73,7 @@ function Trader() {
       Whether you're a wholesaler, retailer, or distributor, we would love to hear from you! Contact us today to learn more about our products and how we can meet your tomato trading needs.
   </p>
       {/* Link to the Homepage component */}
-    <h1> <Link to="/homepage">Go to Registration</Link></h1>
+    <h1> <Link to="/Contact">Go to Registration</Link></h1>
     </div>
   );
 }

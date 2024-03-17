@@ -1,20 +1,6 @@
-// import React from 'react';
-// import tomatoBackground from '../tomato_bg.jpg'
-
-// function Farmer() {
-//   return (
-//     <div>
-//       <h2>Welcome to your dashboard</h2>
-      
-//     </div>
-//   );
-// }
-
-
-// export default Farmer;
-
 import React from 'react';
-import tomatoBackground from '../tomato_bg.jpg'
+import { Link } from 'react-router-dom';
+// import tomatoBackground from '../tomato_bg.jpg'
 
 function Farmer() {
   return (
@@ -34,6 +20,8 @@ function Farmer() {
             Predict Tomato Price
           </button>
         </a>
+        {/* Link to the Contact page */}
+     <h1><Link to="/Tradercontacts">Contacts Details </Link></h1>
       </div>
     </div>
   );
